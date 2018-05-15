@@ -1,0 +1,150 @@
+body{
+    margin: auto;
+    width: calc(100vw - 17px);
+    background-image: url("./186384-OX6PYJ-330.jpg");
+    background-size: cover;
+    height:100vh;
+}
+
+header{
+
+    background-color:rgba(0, 0, 0, 0.45);
+    height:100vh;
+    
+}
+
+header h1{
+    display: inline-block;
+    color:white;
+    font-size: 40px;
+}
+
+a:link{
+    padding:10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #76c38f;
+    border: none;
+    border-radius: 5px;
+    display:inline-block;
+    color:white;
+}
+
+.sec_header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+}
+
+.header_text{
+    width:50%;
+    height:auto;
+    color:white;
+    margin:80px;
+     align-self: center;
+}
+
+.header_text button{
+    color: white;
+    background: #76c38f;
+    border:none;
+    border-radius: 5px ;
+    width: 73%;
+    height: 37px;
+}
+
+.img_header{
+    border-radius: 50%;
+    border:23px solid grey;
+    width: 60%;
+    height: 80%;
+    margin:80px;
+    align-self: center;
+    box-shadow: 10px 10px 50px  grey;   
+}
+
+.second_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:80px;
+    padding: 30px;
+/*    width:80%;  */
+}
+
+.small_img{
+    width:100px;
+    height:100px;
+}
+
+.part:hover{
+    background:#76c38f; 
+    text-align: center;
+    width:300px;
+    height:auto;
+}
+
+
+.pictures{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:80px;
+    padding: 30px;
+}
+
+.latest_img{
+    width:300px;
+    height:200px;
+    border:5px solid white;
+    filter:grayscale(1);
+    
+}
+.latest_img:hover{
+  border:5px solid #76c38f;  
+    filter: none;
+}
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap:80px;
+    padding: 30px;
+    background-color: #303030;
+    color:white
+}
+
+footer a:hover{
+    color:#76c38f;
+    background: none;
+}
+
+.form{
+    padding:10px 10px
+}
+
+.form input{
+    background-color: #222222;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.form button{
+    color: white;
+    background: #76c38f;
+    border:none;
+    border-radius: 5px ;
+    width: 73%;
+    height: 37px; 
+}
+
+
+
+
